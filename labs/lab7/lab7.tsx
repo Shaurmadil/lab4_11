@@ -15,9 +15,9 @@ import tabX from "./tabX";
 import series from "./series";
 
 const Lab7 = () => {
-    const [Xn, setXn] = useState("-2");
+    const [Xn, setXn] = useState("-2.1");
     const [Xk, setXk] = useState("1");
-    const [Xh, setXh] = useState("0.2");
+    const [Xh, setXh] = useState("0.3");
 
     const [arrX, setArrX] = useState([]);
     const [arrY, setArrY] = useState([]);

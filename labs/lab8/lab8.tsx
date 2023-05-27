@@ -117,9 +117,10 @@ const Lab8 = () => {
             <ScrollView
                 style={{
                     flex: 1,
-                    backgroundColor: "#82ccdd",
+                    backgroundColor: "#00FF00",
                 }}
             >
+                <Text style={{ backgroundColor: 'yellow',fontSize: 20, alignSelf: 'center', marginTop: 10}}> Виконав студент групи КН-32 Ярмола М.О. </Text>
                 <Text
                     style={{ fontSize: 20, alignSelf: "center", marginTop: 10 }}
                 >

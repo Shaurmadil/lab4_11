@@ -134,6 +134,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         elevation: 3,
         width: 180,
+        backgroundColor: 'orange'
     },
     text: {
         fontSize: 20,

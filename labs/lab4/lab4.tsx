@@ -77,7 +77,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     borderRadius: 4,
     elevation: 3,
-    width: 200
+    width: 200,
+    backgroundColor: 'orange'
   },
   text: {
     fontSize: 20,

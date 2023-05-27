@@ -14,14 +14,15 @@ import useStore from "./store";
 import { getDatabase, ref, onValue, push } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCM8SvIP5OaWiLCjoP_jmZiFaY9KqCyouU",
-    authDomain: "lab11tsx.firebaseapp.com",
-    databaseURL: "https://lab11tsx-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "lab11tsx",
-    storageBucket: "lab11tsx.appspot.com",
-    messagingSenderId: "485516940409",
-    appId: "1:485516940409:web:16beb3917c753febb9f0a8"
-};
+    apiKey: "AIzaSyDxUDxE8uymttbABO9_fQW42IKfB8A7rTk",
+    authDomain: "lab11-2db54.firebaseapp.com",
+    databaseURL: "https://lab11-2db54-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "lab11-2db54",
+    storageBucket: "lab11-2db54.appspot.com",
+    messagingSenderId: "673448840323",
+    appId: "1:673448840323:web:c06680615495bd91f55fb6",
+    measurementId: "G-EBNMMPGCX5"
+  };
 
 const Lab10 = () => {
     const FIREBASE_APP = initializeApp(firebaseConfig);
@@ -47,10 +48,11 @@ const Lab10 = () => {
             <ScrollView
                 style={{
                     flex: 1,
-                    backgroundColor: "#82ccdd",
+                    backgroundColor: "#00FF00",
                 }}
                 showsVerticalScrollIndicator={false}
             >
+                <Text style={{ backgroundColor: 'yellow',fontSize: 20, alignSelf: 'center', marginTop: 10}}> Виконав студент групи КН-32 Ярмола М.О. </Text>
                 <Pressable
                     style={({ pressed }) => [
                         {
@@ -230,6 +232,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         elevation: 3,
         width: 240,
+        backgroundColor: 'orange'
     },
     text: {
         fontSize: 20,
